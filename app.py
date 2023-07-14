@@ -11,7 +11,7 @@ df = pd.read_csv('diabetes.csv')
 
 # HEADINGS
 st.title('SugarWatch - Diabetic Prediction Web App :syringe:')
-st.sidebar.header('Patient Input Parameters :man_health_worker:')
+st.sidebar.header('Patient Input Parameters')
 st.subheader('Training Data Set Information :clipboard:')
 st.dataframe(df.describe())
 
